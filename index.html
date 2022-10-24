@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/datos.js"></script>
+</head>
+
+<body>
+
+    <div class="formulario">
+        <form>
+            <div>
+                <input type="text" id="inputTarea" value="Escribe una tarea">
+            </div>
+            <div>
+                <label for="" id="label">Prioridad:</label>
+                <select name="" id="selectPrioridad">
+                    <option value="Urgente">Urgente</option>
+                    <option value="Diaria">Diaria</option>
+                    <option value="Mensual">Mensual</option>
+                </select>
+            </div>
+
+            <div>
+                <input type="submit" id="btnEnviar" value="Enviar">
+            </div>
+        </form>
+    </div>
+
+    <div class="listaTareas">
+        <section id="tareas"></section>
+    </div>
+
+
+    <script src="./js/funciones.js"></script>
+
+
+</body>
+
+</html>
